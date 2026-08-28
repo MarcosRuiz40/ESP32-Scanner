@@ -1,7 +1,7 @@
 # ESP32-Scanner
 ---
 
-Proyecto para adaptar el Port Scanner que tengo programado en RUST a ESP32 utilizando C++
+Proyecto para adaptar el Port Scanner que tengo programado en RUST a ESP32 utilizando C++.
 Esta herramienta busca ser un recurso físico y portátil para facilitar tareas de reconocimiento de redes y ejercicios de ciberseguridad.
 
 ---
@@ -26,5 +26,4 @@ Esta herramienta busca ser un recurso físico y portátil para facilitar tareas 
 - [ ] Creación de la interfaz para el usuario final.
 
 ---
-
-**Autor:** Marcos Ruiz
+Todos los proyectos realizados en este perfil tienen un enfoque práctico diseñado para conseguir mi primera experiencia laboral en el mundo IT.
