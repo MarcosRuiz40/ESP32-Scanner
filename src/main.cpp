@@ -5,6 +5,9 @@
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
+IPAddress ip(192, 168, 0, 181);
+int puerto = 80;
+
 void setup() {
 
     Serial.begin(115200);
@@ -30,6 +33,14 @@ void setup() {
     Serial.println(WiFi.localIP());
 
     Serial.println("[*] Scanner listo.");
+
+    WiFiClient client;
+
+    if (client.connect(ip, puerto)){
+        Serial.println("[OPEN] Puerto abierto");
+    } else {
+        Serial.println("[CLOSE] Puerto cerrado");
+    }
 }
 
 void loop() {
